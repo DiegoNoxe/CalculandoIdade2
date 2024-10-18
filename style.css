@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+
+header{
+    background-color: black;
+    width: 120rem;
+    height: 3.5rem;
+}
+
+header h1
+{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+body 
+{
+    background-image: url(img/age.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 90vh; 
+    width:  90vw; 
+}
+
+.container
+{
+    max-width: 640px;
+    margin:  0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 36rem;   
+    margin-top: 17rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 4);
+}
+
+form
+{
+    text-align: center;
+    font-weight: bolder;
+}
+
+form button{
+    cursor: pointer;
+    width: 5rem;
+    font-weight: bolder;
+    background-color: rgba(1, 36, 36, 0.295);
+}
+
+.paragrafo-resultado
+{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+footer a:hover
+{
+    text-decoration: underline;
+    color: rgb(105, 51, 204);
+}

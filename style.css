@@ -5,7 +5,7 @@
 
 header{
     background-color: black;
-    width: 120rem;
+    width: 111.1%;
     height: 3.5rem;
 }
 
@@ -30,29 +30,36 @@ body
 {
     max-width: 640px;
     margin:  0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.637);
     padding: 20px;
     margin-left: 36rem;   
     margin-top: 17rem;
     border-radius: 20px;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 4);
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.37);
 }
 
 form
 {
+    color: white;
     text-align: center;
     font-weight: bolder;
 }
 
 form button{
+    color: aliceblue;
     cursor: pointer;
     width: 5rem;
     font-weight: bolder;
-    background-color: rgba(1, 36, 36, 0.295);
+    background-color: rgb(0, 0, 0);
+}
+
+form #data{
+    font-size: 22px;
 }
 
 .paragrafo-resultado
 {
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     font-weight: bolder;
     font-size: 1.4rem;
@@ -73,7 +80,7 @@ footer p {
 
 footer a 
 {
-    color: white;
+    color: rgb(158, 206, 245);
     text-decoration: none;
 }
 

@@ -7,7 +7,7 @@ form.addEventListener('submit', function (e){
     /* validando */
     if(age<= 1908 || age >= 2025)
     {
-        setResultado('Idade invalida!');
+        setResultado('Idade invalida! Por favor, insira uma idade valida.');
         return;
     }
 

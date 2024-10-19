@@ -1,4 +1,7 @@
 const form = document.querySelector('#formulario');
+const limpar = document.querySelector('#limpar');
+
+
 form.addEventListener('submit', function (e){
     e.preventDefault(); 
     const inputAge = e.target.querySelector('#age');
@@ -17,6 +20,15 @@ form.addEventListener('submit', function (e){
     const informar = `Você tem ${idade} anos de idade e você é ${msg}`;  
     setResultado(informar);
 });
+
+
+
+limpar.addEventListener('click', function(clear) {
+    clear.preventDefault(); 
+    document.querySelector('#age').value = ''; 
+    setResultado('');
+});
+
 
 
 
